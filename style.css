@@ -7,6 +7,7 @@
 body{
     background-color: #f0ead2;
     text-align: center;
+    padding: 10px;
 }
 
 .container{
@@ -34,6 +35,7 @@ body{
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
     font-size: 8vmin;
     color: #b0413e;
+    background-color: #f0f0f0;
 }
 
 #reset-btn{
@@ -43,4 +45,28 @@ body{
     color: #fff;
     border-radius: 0.8rem;
     border: none;
+}
+
+#new-btn{
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 0.8rem;
+    border: none;
+    margin: 15px 0;
+}
+
+#msg{
+    color: #b0413e;
+    font-size: 7vmin;
+    margin-top: 5px;
+}
+
+.msg-conatainer{
+    height: 30vmin;
+}
+
+.hide{
+    display: none;
 }
